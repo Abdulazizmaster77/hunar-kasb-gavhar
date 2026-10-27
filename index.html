@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hunar — zar, kasb — gavhar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="sarlavha-belgi">🌟</div>
+    <h1>Hunar — zar, kasb — gavhar</h1>
+    <p>Kasblar olamiga xush kelibsiz!</p>
+</header>
+
+<main>
+    <section id="boshSahifa" class="bosh-sahifa">
+        <div class="katta-rasm">👩‍🏫 👨‍⚕️ 👨‍🍳 👷‍♂️</div>
+        <h2>Bugun nimalarni o‘rganamiz?</h2>
+        <p>Kasblar bilan tanishing, masalalarni yeching va bilimingizni sinang!</p>
+
+        <div class="menyu">
+            <button class="menyu-tugma masala" onclick="bolimniOch('masalalar')">
+                🧮 Masalalar
+            </button>
+            <button class="menyu-tugma test" onclick="bolimniOch('testlar')">
+                ⚡ Tezkor savol-javob
+            </button>
+        </div>
+
+        <div class="eslatma">
+            💡 Har bir kasbning jamiyatda o‘z o‘rni bor!
+        </div>
+    </section>
+
+    <section id="masalalar" class="bolim yashirin">
+        <h2>🧮 Kasblarga oid matematik masalalar</h2>
+        <p>Masalani o‘qing va to‘g‘ri javobni tanlang.</p>
+        <div id="masalaJoy"></div>
+        <button class="uy-tugma" onclick="boshSahifagaQayt()">🏠 Bosh sahifa</button>
+    </section>
+
+    <section id="testlar" class="bolim yashirin">
+        <h2>⚡ Kasblarni taniymiz!</h2>
+        <p>Kasb haqidagi ma’lumotni o‘qing va savolga Ha yoki Yo‘q deb javob bering.</p>
+        <div id="testJoy"></div>
+        <button class="uy-tugma" onclick="boshSahifagaQayt()">🏠 Bosh sahifa</button>
+    </section>
+</main>
+
+<footer>
+    <p>📚 Bilim olamiz, kasblarni o‘rganamiz!</p>
+    <p>Hunar — zar, kasb — gavhar!</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
